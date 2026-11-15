@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="id" class="is-locked">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>The Wedding of Medina &amp; Kemal</title>
+  <meta name="description" content="Undangan pernikahan Medina &amp; Kemal" />
+  <meta name="theme-color" content="#3E2C20" />
+
+  <!-- Pratinjau saat link dibagikan (WhatsApp, dll). Ubah teks & gambar di sini. -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="The Wedding of Medina &amp; Kemal" />
+  <meta property="og:description" content="Kami mengundang Anda untuk hadir di hari bahagia kami." />
+  <meta property="og:url" content="https://mirzaathallahsalman.github.io/medina-kemal/" />
+  <meta property="og:image" content="https://mirzaathallahsalman.github.io/medina-kemal/assets/images/couple-cover.jpg" />
+
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Ccircle cx='32' cy='32' r='30' fill='%233E2C20'/%3E%3Ctext x='32' y='42' text-anchor='middle' font-family='Georgia' font-style='italic' font-size='28' fill='%23E5CFA4'%3EMK%3C/text%3E%3C/svg%3E" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500&family=Jost:wght@300;400;500&family=Pinyon+Script&display=swap" rel="stylesheet" />
+
+  <link rel="preload" as="image" href="assets/images/couple-cover.jpg" />
+  <link rel="stylesheet" href="css/base.css" />
+  <link rel="stylesheet" href="css/components.css" />
+  <link rel="stylesheet" href="css/sections.css" />
+</head>
+<body>
+  <!-- Semua konten dirender dari config.js oleh js/main.js -->
+  <div id="app"></div>
+
+  <div class="boot" id="boot" aria-hidden="true"><span class="boot__mark">M &amp; K</span></div>
+
+  <noscript><p class="noscript">Aktifkan JavaScript untuk membuka undangan ini.</p></noscript>
+
+  <script>
+    // Modul ES tidak berjalan dari file:// — tampilkan petunjuk bila dibuka langsung.
+    if (location.protocol === "file:") {
+      document.addEventListener("DOMContentLoaded", function () {
+        document.getElementById("boot").innerHTML =
+          '<div class="boot__help"><strong>Jalankan lewat server lokal</strong><br>Buka terminal di folder ini lalu jalankan:<br><code>npx serve .</code><br>atau <code>python -m http.server</code></div>';
+      });
+    }
+  </script>
+  <script type="module" src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,2 @@
+Letakkan video intro di sini dengan nama: intro.mp4
+(MP4 H.264, 15-40 detik, maks +-8 MB). Nama/path bisa diubah di config.js -> intro.video.src
